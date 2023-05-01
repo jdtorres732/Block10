@@ -1,0 +1,141 @@
+main {
+
+}
+
+.topRow {
+    display: flex;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.topRow > div {
+    background-color: skyblue;
+    flex: 1;
+}
+
+.topRow > div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.midrow {
+    height: 400px;
+    background-color: skyblue;
+}
+
+.bottomrow {
+    height: 20px;
+    background-color: chartreuse;
+    margin-top: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+   
+}
+
+.one {
+    width: 50px;
+    height: 50px;
+    background-color: lightyellow;
+    left: 35px;
+    top: 25px;
+}
+
+.two {
+    background-color: yellow;
+    left: 50px;
+    top: 150px;
+    width: 100px;
+    height: 100px
+}
+
+.three {
+    background-color: pink;
+    width: 65px;
+    height: 65px;
+    top: 70px;
+    left: 155px;
+}
+
+.four {
+    background-color: lightyellow;
+    width: 150px;
+    height: 150px;
+    left: 175px;
+    top: 200px;
+}
+
+.five {
+    background-color: orange;
+    width: 75px;
+    height: 75px;
+    left: 310px;
+    top: 30px;
+}
+
+.six {
+    background-color: yellow;
+    width: 85px;
+    height: 85px;
+    left: 400px;
+    top: 155px;
+}
+
+.zero {
+    background-color: pink;
+    height: 40px;
+    width: 40px;
+    top: 115px;
+    left: 265px;
+}
+
+.traingle {
+    width: 0;
+    height: 0;
+    z-index: 2;
+    position: absolute;
+}
+.tri-one {
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 270px solid yellowgreen;
+    right: 9px;
+    top: 253px;
+    z-index: 3;
+}
+
+.tri-two {
+    border-left: 200px solid transparent;
+    border-right:200px solid transparent;
+    border-bottom: 370px solid green;
+    right: 150px;
+    top: 152px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column
+}
+
+.submit-button {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 30%;
+    align-self: center;
+}
+
+.forminput {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+h3 {
+    text-align: center;
+}
